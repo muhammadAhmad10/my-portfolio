@@ -32,7 +32,19 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+hr {
+  width: 40%;
+  margin: 0 auto;
+  background-color: #453c3c;
+  /* Optional: Change the color as desired */
+  height: 15px;
+  /* Optional: Set the height of the line */
+  border: none;
+  /* Optional: Remove any default border */
 }

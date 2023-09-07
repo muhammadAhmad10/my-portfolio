@@ -1,0 +1,29 @@
+[{
+    "title":"CSS",
+    "percentage":"70%",
+    "now":70
+}
+    ,{
+        "title":"SQL",
+        "percentage":"60%",
+        "icon":"sql.png",
+        "now":60
+    },
+    {
+        "title":"MongoDB",
+        "percentage":"50%",
+        "icon":"mongodb.png",
+        "now":50
+    },
+    {
+        "title":"Machine Learning",
+        "percentage":"40%",
+        "now":40
+    },
+    {
+        "title":"Python",
+        "percentage":"45%",
+        "icon":"mongodb.png",
+        "now":45
+    }
+]

@@ -1,0 +1,155 @@
+.about {
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 180px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    background: #1235b5;
+    color: white;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.about h1 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 2rem;
+    color: #040c2a;
+
+}
+
+.about-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-left {
+    width: 45%;
+    max-height: 520px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.about-left img {
+    width: 85%;
+    height: 100%;
+
+}
+
+.about-right {
+    width: 55%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-right p:first-of-type {
+    margin-top: -10px;
+}
+
+.about-right p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 3rem;
+    margin-left: 2rem;
+}
+
+.btn {
+    margin-top: 1.5rem
+}
+
+@media screen and (max-width:1200px) {
+    .about {
+        height: auto;
+    }
+
+    .about-left img {
+        width: 92%;
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+    .about {
+        height: auto;
+    }
+
+    .about-left {
+        display: none;
+    }
+
+    .about-right {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .about-right p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
+
+    .btn {
+        margin-top: 2rem;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .about {
+        height: auto;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-right p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .btn {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .about {
+        height: auto;
+    }
+
+    .btn {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .about-right p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}

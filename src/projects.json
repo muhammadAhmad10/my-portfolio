@@ -1,0 +1,19 @@
+[
+    {
+        "title": "Blogs Sharing App",
+        "tech": ["React",  "Node", "Express", "MongoDB"],
+        "github":"www.github.com/muhammadAhmad10",
+        "image": "blogs.jpg"
+    },
+    {
+        "title": "Recipe Sharing App",
+        "tech": ["React",  "Node", "Express", "MongoDB", "SQLite","Firebase" ],
+        "github":"www.github.com/muhammadAhmad10",
+        "image": "recipe.jpeg"
+    },{
+        "title": "Recipe Sharing App",
+        "tech": ["React",  "Node", "Express", "MongoDB", "SQLite","Firebase" ],
+        "github":"www.github.com/muhammadAhmad10",
+        "image": "recipe.jpeg"
+    }
+]

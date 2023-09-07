@@ -1,0 +1,33 @@
+[
+    {
+        "title":"JavaScript",
+        "percentage":"70%",
+        "icon":"js.png",
+        "now":70
+    },
+    {
+        "title":"React",
+        "percentage":"80%",
+        "icon":"react.png",
+        "now":80
+    },
+    {
+        "title":"React Native",
+        "percentage":"70%",
+        "icon":"react.png",
+        "now":70
+    },
+    {
+        "title":"HTML",
+        "percentage":"70%",
+        "icon":"html.png",
+        "now":70
+    },
+    {
+        "title":"Bootstrap",
+        "percentage":"60%",
+        "icon":"bootstrap.png",
+        "now":60
+    }
+    
+]
