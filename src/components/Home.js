@@ -18,7 +18,7 @@ export default function Home() {
       </div>
       <div className="home-right">
         <div className="img-cont">
-          <img src={require("../assets/myPic.png")} alt="my pic" />
+          <img src={require("../assets/ahmad.png")} alt="my pic" />
         </div>
       </div>
     </section>

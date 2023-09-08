@@ -33,7 +33,7 @@ export default function Projects() {
       {/* <div className=" bg-danger align-items-center justify-content-center d-flex"> */}
       <div className="projects-container" style={{ padding: "30px 6%" }}>
         {Project.map((project) => (
-          <div className="project position-relative">
+          <div className="project animate__animated animate__delay-2s animate__fadeInLeft position-relative">
             <img src={project.image} alt="adf" />
             <h2 className="fw-bold mt-2 text-center fs-4 ">{project.title}</h2>
             <div className="d-flex justify-content-center w-100  position-absolute bottom-5">
