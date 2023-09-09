@@ -18,8 +18,11 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-8">
-      <div className=" foot">
+    <footer
+      style={{ background: "#0f1322" }}
+      className="bg-gray-900 text-white py-8"
+    >
+      <div className="foot">
         <div className="contact-items d-flex flex-column align-items-center">
           <div className=" mb-4 w-100">
             <h2 className="fw-bold mt-4  fs-2">
@@ -31,7 +34,11 @@ const Footer = () => {
               <FontAwesomeIcon color="#1877F2" icon={faFacebook} />
             </a>
             <a href="www.github.com" className="icon-link">
-              <FontAwesomeIcon color="#181717" icon={faGithub} />
+              <FontAwesomeIcon
+                className="github-icon"
+                color="#"
+                icon={faGithub}
+              />
             </a>
             <a href="www.instagram.com" className="icon-link">
               <FontAwesomeIcon color="#E4405F" icon={faInstagram} />

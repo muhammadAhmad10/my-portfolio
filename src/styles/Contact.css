@@ -97,10 +97,11 @@ h2 {
 }
 
 .email-whatsapp:hover {
-    background: #0d0b35;
+    /* background: #0d0b35; */
     color: white;
     transition: 1s;
     border-radius: 5px;
+    border: 2px solid #051243;
 }
 
 

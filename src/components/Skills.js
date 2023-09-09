@@ -5,13 +5,41 @@ import skillsRight from "../skillsRight.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faMobileScreen } from "@fortawesome/free-solid-svg-icons";
 import ProgressBar from "react-bootstrap/ProgressBar";
+import skills from "../skills.json";
 
 export default function Skills() {
+  console.log("skills are: ", skills);
   return (
     <section className="skills-section">
-      <h1 className="text-center pt-4">Skills</h1>
+      <h1 className="text-center text-light pt-4">Skills</h1>
       {/* <div className=" skill-container"> */}
-      <div className=" skills-contain" style={{ padding: "0px 5%" }}>
+
+      <div
+        className="mt-5 skills-container d-flex flex-wrap justify-content-center"
+        style={{}}
+      >
+        {skills.map((skill) => (
+          <div
+            className="skilled d-flex flex-column justify-content-center align-items-center"
+            style={{
+              borderRadius: "10px",
+              width: "100px",
+              height: "100px",
+              boxShadow: "0px 0px 50px rgba(0,0,0,0.3)",
+            }}
+            key={skill.id}
+          >
+            <img
+              src={require(`../assets/icons/${skill.icon}`)}
+              alt={skill.title}
+              style={{ width: "45px", height: "35px" }}
+            />{" "}
+            <p className="mt-1 text-center">{skill.title}</p>
+          </div>
+        ))}
+      </div>
+
+      {/* <div className=" skills-contain" style={{ padding: "0px 6%" }}>
         <div className=" d-flex flex-column pt-4 pb-4 skills-left">
           {skillsLeft.map((skill) => (
             <div className="skilll">
@@ -67,8 +95,8 @@ export default function Skills() {
             </div>
           ))}
         </div>
-      </div>
-      <h1 className="text-center pt-5">What I Can Do</h1>
+      </div> */}
+      <h1 className="text-center text-light pt-5">What I Can Do</h1>
 
       <div className=" skill-tracks pb-3 pt-3">
         <div className="track container">

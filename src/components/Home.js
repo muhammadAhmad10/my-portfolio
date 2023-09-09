@@ -3,7 +3,7 @@ import "../styles/Home.css";
 
 export default function Home() {
   return (
-    <section id="home" className="bg-gray-800 text-light">
+    <section id="home" className="bg-gray-900 text-light">
       <div className="home-left">
         <p>Hi there! I'm</p>
         <h1 className="text-light">

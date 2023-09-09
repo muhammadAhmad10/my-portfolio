@@ -31,7 +31,7 @@ const customTheme = (outerTheme) =>
         styleOverrides: {
           root: {
             "--TextField-brandBorderHoverColor": "#ffffff",
-            "--TextField-brandBorderFocusedColor": "#6F7E8C",
+            "--TextField-brandBorderFocusedColor": "white",
           },
         },
       },
@@ -49,6 +49,24 @@ const customTheme = (outerTheme) =>
 
 export default function Contact() {
   const outerTheme = useTheme();
+
+  const sx = {
+    "& .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline": {
+      borderColor: "white",
+    },
+    "& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline": {
+      borderColor: "white",
+    },
+    "& .MuiOutlinedInput-input": {
+      color: "white",
+    },
+    "& .MuiInputLabel-root": {
+      color: "white",
+    },
+    "& .MuiInputLabel-root.Mui-focused": {
+      color: "white",
+    },
+  };
 
   return (
     <section className="">
@@ -96,6 +114,7 @@ export default function Contact() {
                     fullWidth
                     label="Full Name"
                     variant="outlined"
+                    sx={sx}
                   />
                 </div>
                 <div className="form-group mt-3">
@@ -104,6 +123,7 @@ export default function Contact() {
                     fullWidth
                     label="Email"
                     variant="outlined"
+                    sx={sx}
                   />
                 </div>
                 <div className="form-group mt-3">
@@ -115,6 +135,7 @@ export default function Contact() {
                     fullWidth
                     placeholder="Enter your message here...."
                     variant="outlined"
+                    sx={sx}
                   />
                 </div>
                 <div className="mt-5">

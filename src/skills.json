@@ -1,0 +1,62 @@
+[
+  {
+    "title": "JavaScript",
+    "percentage": "70%",
+    "icon": "js.png",
+    "now": 70
+  },
+  {
+    "title": "React",
+    "percentage": "80%",
+    "icon": "react.png",
+    "now": 80
+  },
+  {
+    "title": "React Native",
+    "percentage": "70%",
+    "icon": "react.png",
+    "now": 70
+  },
+  {
+    "title": "HTML",
+    "percentage": "70%",
+    "icon": "html.png",
+    "now": 70
+  },
+  {
+    "title": "Bootstrap",
+    "percentage": "60%",
+    "icon": "bootstrap.png",
+    "now": 60
+  },
+  {
+    "title": "CSS",
+    "icon": "css.png",
+    "percentage": "70%",
+    "now": 70
+  },
+  {
+    "title": "SQL",
+    "percentage": "60%",
+    "icon": "sql.png",
+    "now": 60
+  },
+  {
+    "title": "MongoDB",
+    "percentage": "50%",
+    "icon": "mongodb.png",
+    "now": 50
+  },
+  {
+    "title": "Machine Learning",
+    "percentage": "40%",
+    "icon": "ml.png",
+    "now": 40
+  },
+  {
+    "title": "Python",
+    "percentage": "45%",
+    "icon": "python.png",
+    "now": 45
+  }
+]

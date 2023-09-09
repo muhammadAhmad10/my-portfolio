@@ -4,7 +4,7 @@ import "../styles/About.css";
 export default function About() {
   return (
     <section className="about">
-      <h1 className="" style={{ marginBottom: "30px" }}>
+      <h1 className=" text-light" style={{ marginBottom: "30px" }}>
         About Me
       </h1>
 
