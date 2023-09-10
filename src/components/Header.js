@@ -62,7 +62,7 @@ export default function Header() {
             <div className="hidden bar sm:ml-6 sm:block">
               <div className="flex space-x-4 text-white">
                 <a
-                  href="#"
+                  href="#!"
                   className=" px-3 text-light py-2 text-base font-medium"
                   aria-current="page"
                 >
