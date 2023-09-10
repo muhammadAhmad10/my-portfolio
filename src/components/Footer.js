@@ -7,14 +7,7 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import "../styles/Footer.css";
-import {
-  faAngleUp,
-  faArrowDownWideShort,
-  faArrowTurnUp,
-  faArrowUp,
-  faArrowUp19,
-  faArrowUpFromBracket,
-} from "@fortawesome/free-solid-svg-icons";
+import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (

@@ -1,16 +1,9 @@
 import React from "react";
-import { useState, useEffect } from "react";
 import { TextField } from "@mui/material";
 import { Button } from "@mui/material";
 import { createTheme, ThemeProvider, useTheme } from "@mui/material/styles";
 import "../styles/Contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faInstagram,
-  faFacebook,
-  faGithub,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { styled } from "@mui/system";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";

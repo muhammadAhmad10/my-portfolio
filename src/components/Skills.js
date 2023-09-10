@@ -1,10 +1,7 @@
 import React from "react";
 import "../styles/Skills.css";
-import skillsLeft from "../skillsLeft.json";
-import skillsRight from "../skillsRight.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faMobileScreen } from "@fortawesome/free-solid-svg-icons";
-import ProgressBar from "react-bootstrap/ProgressBar";
 import skills from "../skills.json";
 
 export default function Skills() {
@@ -39,63 +36,6 @@ export default function Skills() {
         ))}
       </div>
 
-      {/* <div className=" skills-contain" style={{ padding: "0px 6%" }}>
-        <div className=" d-flex flex-column pt-4 pb-4 skills-left">
-          {skillsLeft.map((skill) => (
-            <div className="skilll">
-              <p className="mb-2 mt-2">{skill.title}</p>
-              <ProgressBar
-                className="bar"
-                striped
-                variant={
-                  skill.now >= 80
-                    ? "primary"
-                    : skill.now >= 70
-                    ? "success"
-                    : skill.now > 50
-                    ? "info"
-                    : skill.now <= 50
-                    ? "warning"
-                    : "danger"
-                }
-                now={skill.now}
-                label={skill.percentage}
-              />
-            </div>
-            // <div className="skill" key={skill.title}>
-            //   <img
-            //     src={require(`../assets/icons/${skill.icon}`)}
-            //     alt={skill.title}
-            //   />
-            //   <p>{skill.percentage}</p>
-            //   <p>{skill.title}</p>
-            // </div>
-          ))}
-        </div>
-        <div className=" d-flex skills-right pt-4 pb-4 flex-column justify-content-center ">
-          {skillsRight.map((skill) => (
-            <div className=" skilll">
-              <p className="mb-2 mt-2">{skill.title}</p>
-              <ProgressBar
-                striped
-                variant={
-                  skill.now > 80
-                    ? "primary"
-                    : skill.now >= 70
-                    ? "success"
-                    : skill.now > 50
-                    ? "info"
-                    : skill.now > 40
-                    ? "warning"
-                    : "danger"
-                }
-                now={skill.now}
-                label={skill.percentage}
-              />
-            </div>
-          ))}
-        </div>
-      </div> */}
       <h1 className="text-center text-light pt-5">What I Can Do</h1>
 
       <div className=" skill-tracks pb-3 pt-3">
