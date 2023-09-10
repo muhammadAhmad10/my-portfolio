@@ -17,7 +17,7 @@ export default function About() {
             Hello there! <b>I'm Muhammad Ahmad</b>, and I'm currently pursuing a
             bachelor's degree in Computer Science at COMSATS University Lahore.
             I love creating apps and websites using a cool technology like
-            <b>React and React Native</b>. Also, I'm quite intrigued by the
+            <b> React and React Native</b>. Also, I'm quite intrigued by the
             world of machine learning and AI.
           </p>
           <p>

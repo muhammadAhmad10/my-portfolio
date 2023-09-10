@@ -61,35 +61,34 @@ export default function Header() {
           <div className="flex flex-1 bbb items-center justify-center sm:items-stretch sm:justify-end">
             <div className="hidden bar sm:ml-6 sm:block">
               <div className="flex space-x-4 text-white">
-                {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                 <a
                   href="#"
-                  className="bg-gray-200 Current: text-dark block rounded-md px-3  py-2 text-base font-medium"
+                  className=" px-3 text-light py-2 text-base font-medium"
                   aria-current="page"
                 >
                   Home
                 </a>
                 <a
-                  href="#"
-                  className="text-white Current: text-dark hover:bg-gray-200 hover:text-gray-800 block rounded-md px-3 py-2 text-base font-medium"
+                  href="#home"
+                  className=" px-3 text-light py-2 text-base font-medium"
                 >
                   About
                 </a>
                 <a
-                  href="#"
-                  className="text-white hover:bg-gray-200 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+                  href="#skills"
+                  className=" px-3 text-light py-2 text-base font-medium"
                 >
                   Skills
                 </a>
                 <a
-                  href="#"
-                  className="text-white hover:bg-gray-200 hover:text-dark block rounded-md px-3 py-2 text-base font-medium"
+                  href="#projects"
+                  className=" px-3 text-light py-2 text-base font-medium"
                 >
                   Projects
                 </a>
                 <a
-                  href="#"
-                  className="text-white hover:bg-gray-200 hover:text-dark block rounded-md px-3 py-2 text-base font-medium"
+                  href="#contact"
+                  className=" px-3 text-light py-2 text-base font-medium"
                 >
                   Contact
                 </a>
@@ -105,33 +104,38 @@ export default function Header() {
       >
         <div className="space-y-1 px-2 pb-3 pt-2">
           <a
-            href="#"
-            className="bg-gray-200 text-dark block rounded-md px-3 py-2 text-base font-medium"
+            href="#home"
+            className="text-white block rounded-md px-3 py-2 text-base font-medium"
             aria-current="page"
+            onClick={toggleMobileMenu}
           >
             Home
           </a>
           <a
-            href="#"
-            className="text-dark hover:bg-gray-100 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            href="#about"
+            className="text-white hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            onClick={toggleMobileMenu}
           >
             About
           </a>
           <a
-            href="#"
-            className="text-dark hover:bg-gray-100 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            href="#skills"
+            className="text-white hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            onClick={toggleMobileMenu}
           >
             Skills
           </a>
           <a
-            href="#"
-            className="text-dark hover:bg-gray-100 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            href="#projects"
+            className="text-white hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            onClick={toggleMobileMenu}
           >
             Projects
           </a>
           <a
-            href="#"
-            className="text-dark hover:bg-gray-100 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            href="#contact"
+            className="text-white hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+            onClick={toggleMobileMenu}
           >
             Contact
           </a>

@@ -69,7 +69,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="">
+    <section id="contact" className="">
       <div className=" d-flex justify-content-center align-items-center pt-3 pb-4">
         <h1 className="text-start ">Let's Work Togather!</h1>
       </div>

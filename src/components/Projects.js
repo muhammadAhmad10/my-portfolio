@@ -10,7 +10,7 @@ export default function Projects() {
   const handleShow = () => setShow(true);
 
   return (
-    <div className="projects">
+    <div id="projects" className="projects">
       <Modal show={show} centered onHide={handleClose} animation={false}>
         <div className="" style={{ width: "100%" }}>
           <Modal.Header closeButton>

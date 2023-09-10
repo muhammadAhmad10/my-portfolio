@@ -10,7 +10,7 @@ import skills from "../skills.json";
 export default function Skills() {
   console.log("skills are: ", skills);
   return (
-    <section className="skills-section">
+    <section id="skills" className="skills-section">
       <h1 className="text-center text-light pt-4">Skills</h1>
       {/* <div className=" skill-container"> */}
 
@@ -25,7 +25,7 @@ export default function Skills() {
               borderRadius: "10px",
               width: "100px",
               height: "100px",
-              boxShadow: "0px 0px 50px rgba(0,0,0,0.3)",
+              boxShadow: "0px 0px 50px rgba(129, 122, 122, 0.3)",
             }}
             key={skill.id}
           >
