@@ -12,7 +12,7 @@ export default function About() {
         <div className="about-left container">
           <img src={require("../assets/me.png")} alt="about pic" />
         </div>
-        <div className="about-right container-fluid">
+        <div className="about-right pt-1 container-fluid">
           <p>
             Hello there! <b>I'm Muhammad Ahmad</b>, and I'm currently pursuing a
             bachelor's degree in Computer Science at COMSATS University Lahore.

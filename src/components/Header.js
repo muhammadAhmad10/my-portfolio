@@ -53,8 +53,8 @@ export default function Header() {
           </div>
           <div className="flex flex-shrink-0 mx-5 items-start">
             <img
-              className="h-8 w-auto"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+              className="h-12 w-auto"
+              src={require("../assets/ahmad-logo.png")}
               alt="Your Company"
             />
           </div>
