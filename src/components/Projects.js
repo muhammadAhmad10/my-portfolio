@@ -1,6 +1,7 @@
 import "../styles/Projects.css";
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Modal, Button } from "react-bootstrap";
 import Project from "../projects.json";
 export default function Projects() {
@@ -39,15 +40,16 @@ export default function Projects() {
             <h2 className="fw-bold mt-2 text-center fs-4 ">{project.title}</h2>
             <div className="d-flex justify-content-center w-100  position-absolute bottom-5">
               <button className="button">Github </button>
-              <button
-                onClick={() => {
-                  setOpenedProject(project);
-                  handleShow();
-                }}
+              <Link
+                to={`/project-details/${project.title}`}
+                // onClick={() => {
+                //   setOpenedProject(project);
+                //   handleShow();
+                // }}
                 className="button"
               >
-                Demo{" "}
-              </button>
+                Demo
+              </Link>
             </div>
           </div>
         ))}
